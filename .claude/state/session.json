@@ -1,6 +1,11 @@
 {
-  "project": "bottlequest",
-  "lastActive": "2026-01-31T21:42:25Z",
-  "lastMessage": "Project initialized",
-  "summary": "New project - no conversations yet"
+  "last_session": "2026-02-01T17:30:00Z",
+  "readiness": 8,
+  "current_phase": "core_value",
+  "status": "PAUSED - Concept exploration",
+  "total_concepts_generated": 35,
+  "rounds_completed": 3,
+  "next_action": "User will return to either: (1) Pick concept from Round 3, (2) Propose new direction, or (3) Generate more concepts",
+  "summary": "Pivoted from original BottleQuest. Real problem: information asymmetry (expert knowledge locked in 1-on-1 convos). Generated 35 concepts across 3 rounds. User rejected: prediction markets, gambling, auctions, tracking-only, B2B-only. Round 3 has 5 fresh directions pending selection: Bottle Biography Generator, Liquor Store Intelligence, Taste Training Game (Duolingo for Whiskey), Expert AMA Marketplace, Secondhand Bottle Escrow.",
+  "waiting_for": "User to select concept or propose new direction"
 }

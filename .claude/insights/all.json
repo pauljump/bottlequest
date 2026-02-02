@@ -1,7 +1,28 @@
 {
-  "decisions": [],
-  "approaches": [],
-  "assumptions": [],
-  "blockers": [],
-  "signals": []
+  "project": "BottleQuest",
+  "last_updated": "2026-02-01T16:42:00Z",
+  "insights": [
+    {
+      "type": "user_persona",
+      "insight": "Enthusiast/explorer (25-50) who values discovery over acquisition, wants aficionado status",
+      "confidence": "high"
+    },
+    {
+      "type": "pivot_discovery",
+      "insight": "Physical stores dying; transactions moved online. Original scanning concept doesn't match reality.",
+      "impact": "critical"
+    },
+    {
+      "type": "real_problem",
+      "insight": "Information asymmetry: Expert knowledge (Pappy 23 $2.5k is ordinary, Weller 107 $100 is better) locked in 1-on-1 conversations.",
+      "impact": "critical"
+    }
+  ],
+  "decisions": [
+    {
+      "decision": "Shelve original BottleQuest concept",
+      "reason": "Doesn't solve right problem; physical retail dying",
+      "status": "confirmed"
+    }
+  ]
 }

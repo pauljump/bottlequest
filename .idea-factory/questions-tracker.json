@@ -1,7 +1,143 @@
 {
   "version": "2.0",
-  "last_updated": "2026-01-18T00:00:00Z",
-  "readiness": 0,
+  "project": "BottleQuest",
+  "idea_id": "IDEA-174",
+  "last_updated": "2026-02-01T16:42:00Z",
+  "readiness": 8,
   "current_phase": "core_value",
-  "questions": []
+  "status": "PIVOTING - Original concept may not solve right problem. Exploring alternatives.",
+  "questions": [
+    {
+      "id": 1,
+      "phase": "core_value",
+      "question": "Who exactly is this person? Age, weekend behavior, what they're hunting?",
+      "answer": "Enthusiast/traveler mindset. Opens Google Maps in new towns looking for obscure finds. Values story over commodity (would never shop Total Wine). Gets off on discovery even without acquiring. Wants to be known as aficionado. Likes all things with a story, not just liquor.",
+      "insight": "user_persona"
+    },
+    {
+      "id": 2,
+      "phase": "core_value",
+      "question": "When hunting in a new town, what's the most frustrating part right now?",
+      "answer": "CRITICAL PIVOT: These physical places are ceasing to exist. Transactions moved online (auction sites, Reddit forums). Weird to meet strangers online→IRL, but NOT weird to find people hunting the same thing. User questioning if original idea is right.",
+      "insight": "pain_point_pivot"
+    },
+    {
+      "id": 3,
+      "phase": "core_value",
+      "question": "What should happen when two strangers discover they're both hunting the same obscure bottle?",
+      "answer": "User decided to pivot: 'I think the main thing here is that we picked the wrong idea. Need a better idea.'",
+      "insight": "pivot_decision"
+    }
+  ],
+  "insights": {
+    "user_persona": "Enthusiast/explorer (25-50) who travels to new towns, seeks obscure items with provenance, values discovery over acquisition, wants aficionado status, anti-mainstream",
+    "pain_point": "REAL PROBLEM DISCOVERED: Information asymmetry. Expert knowledge (Pappy 23 $2.5k is ordinary, Weller 107 $100 is better) locked in 1-on-1 convos. Price arbitrage exists (same bottle $125 on Uber Eats vs $400 Total Wine). Need expert→consumer knowledge transfer at scale.",
+    "solution": "TBD - Exploring 25 alternative concepts. Top candidate: Camera scanner that tells you if bottle is worth it + where cheaper + what $100 bottle is better",
+    "differentiation": "AI-native infra moat (not wrapper). Consumer-facing. Fun to build with role-specific friend tooling (Tinder for curation, SQL for ops). Novel and untapped.",
+    "primary_workflow": "TBD - waiting for concept selection",
+    "mvp_scope": "TBD",
+    "tech_stack": "TBD",
+    "risks": [
+      "Original physical scanning concept doesn't solve the dying physical retail problem",
+      "Need to avoid heavy liquor regulation (no auction)",
+      "Must be fun/engaging, not just utilitarian tracking"
+    ],
+    "monetization": "TBD"
+  },
+  "pivot_notes": {
+    "original_concept": "Pokémon Go for rare items (liquor first) - scan shelves, log sightings, earn XP/badges, complete quests",
+    "pivot_reason": "Physical stores dying; transactions moved online. Original game loop doesn't match where the behavior actually happens.",
+    "research_artifacts": [
+      "Screenshots of conversation with Nick Johnson (whiskey expert)",
+      "Key insight: Pappy 23 ($2.5k) is ordinary; Weller 107 ($100-125) is better value",
+      "Price arbitrage: Same bottle varies wildly across platforms (Uber Eats, Total Wine, etc.)"
+    ],
+    "alternative_directions": [
+      "Wirecutter for allocated bourbon",
+      "Is this worth it? scanner (camera → AI tells you if overpaying)",
+      "Value arbitrage alerts across platforms",
+      "Expert taste graph (map your prefs to what experts actually drink)",
+      "Ask an expert AI (trained on Nick-tier knowledge)"
+    ],
+    "rejected_directions": [
+      "All 25 initial concepts (user: 'dont like any')",
+      "Prediction markets / Polymarket-style (user explicitly rejected after showing interest in #4)",
+      "Gambling/betting mechanics (avoid regulation)",
+      "Auctions (regulatory concerns)",
+      "Pure tracking/alerts (not engaging enough)",
+      "B2B-only tools"
+    ],
+    "concepts_round_2": [
+      {
+        "id": 1,
+        "name": "Anti-Hype Social Network",
+        "description": "Status from debunking expensive bottles, not collecting them",
+        "status": "proposed"
+      },
+      {
+        "id": 2,
+        "name": "Bottle Bingo with Stakes",
+        "description": "Weekly prediction game with pot split",
+        "status": "rejected_category_gambling"
+      },
+      {
+        "id": 3,
+        "name": "Expert Clone Chatbot Marketplace",
+        "description": "AI-cloned experts paid per query",
+        "status": "proposed"
+      },
+      {
+        "id": 4,
+        "name": "Hype Index Futures",
+        "description": "Prediction market for bottle valuations",
+        "status": "user_interested_but_rejected_category"
+      },
+      {
+        "id": 5,
+        "name": "Taste Cluster Matchmaking",
+        "description": "Find people with 94% taste overlap",
+        "status": "proposed"
+      }
+    ],
+    "concepts_round_3": [
+      {
+        "id": 1,
+        "name": "Bottle Biography Generator",
+        "description": "Camera → full provenance story (barrel, rickhouse, batch quirks)",
+        "ai_moat": "Scraping distillery records + satellite weather + batch quality",
+        "status": "proposed"
+      },
+      {
+        "id": 2,
+        "name": "Liquor Store Intelligence Layer",
+        "description": "B2B - tell store owners what aficionados are searching for",
+        "ai_moat": "Demand heatmaps from expert searches",
+        "status": "proposed"
+      },
+      {
+        "id": 3,
+        "name": "Taste Training Game (Duolingo for Whiskey)",
+        "description": "Daily 2-min palate lessons, unlock Expert Mode challenges",
+        "ai_moat": "Synthetic tasting challenge generation",
+        "status": "proposed"
+      },
+      {
+        "id": 4,
+        "name": "Expert AMA Marketplace",
+        "description": "Live 15-min video calls with experts ($20/session, 30% cut)",
+        "ai_moat": "Scheduling + matching + quality scoring",
+        "status": "proposed"
+      },
+      {
+        "id": 5,
+        "name": "Secondhand Bottle Escrow",
+        "description": "Fixed-price peer-to-peer with verification + escrow",
+        "ai_moat": "Fake detection via label analysis",
+        "status": "proposed"
+      }
+    ],
+    "total_concepts_generated": 35,
+    "session_status": "PAUSED - User wants to come back to this. All concepts captured.",
+    "top_recommendation": "TBD - waiting for user to select from Round 3 concepts or propose new direction"
+  }
 }
